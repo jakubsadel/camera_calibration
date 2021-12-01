@@ -145,9 +145,9 @@ if (nPatternFound > 1):
     print(f"Disortion: {dist}")
 
     # --------- Save result
-    filename = "cameraMatrix1.txt"
+    filename = "cameraMatrix3.txt"
     np.savetxt(filename, mtx, delimiter=',')
-    filename = "cameraDistortion1.txt"
+    filename = "cameraDistortion3.txt"
     np.savetxt(filename, dist, delimiter=',')
 
     # Re-projection error gives a good estimation of just how exact the found parameters are.

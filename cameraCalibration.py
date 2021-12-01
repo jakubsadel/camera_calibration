@@ -63,3 +63,6 @@ print("\nCamera Matrix: \n",  cameraMatrix)
 print("\dist: \n",  dist)
 print("\nrvecs: \n",  rvecs)
 print("\tvecs: \n",  tvecs)
+
+
+print(cameraMatrix)
